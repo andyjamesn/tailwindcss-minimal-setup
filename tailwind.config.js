@@ -3,7 +3,7 @@ module.exports = {
   target: "relaxed",
   prefix: "",
   important: false,
-  separator: ":",
+  separator: "--",
   theme: {
     screens: {
       sm: "640px",
