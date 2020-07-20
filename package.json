@@ -5,10 +5,9 @@
   "main": "tailwind.config.js",
   "scripts": {
     "tailwind": "postcss tailwind.css -o dist/stylez.css",
-    "autoprefixer": "postcss dist/stylez.css -u autoprefixer --no-map -o dist/stylez.css",
     "minify": "postcss dist/stylez.css -u cssnano --no-map -o dist/style.min.css",
-    "build": "npm run tailwind && npm run autoprefixer",
-    "production": "npm run tailwind && npm run autoprefixer && npm run minify"
+    "build": "npm run tailwind",
+    "production": "npm run tailwind && npm run minify"
   },
   "repository": {
     "type": "git",
