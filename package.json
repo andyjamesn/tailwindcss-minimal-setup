@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "Setup Tailwind CSS in 20 seconds without node_modules",
   "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "postcss tailwind.css -o dist/stylez.css",
+    "autoprefixer": "postcss dist/stylez.css -u autoprefixer --no-map -o dist/stylez.css",
+    "minify": "postcss dist/stylez.css -u cssnano --no-map -o dist/style.min.css",
+    "build": "npm run tailwind && npm run autoprefixer",
+    "production": "npm run tailwind && npm run autoprefixer && npm run minify"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tomaszbujnowicz/tailwindcss-minimal-setup.git"
@@ -21,7 +28,6 @@
   "dependencies": {
     "autoprefixer": "^9.8.5",
     "cssnano": "^4.1.10",
-    "http-server": "^0.12.3",
     "postcss": "^7.0.32",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.5.1"
