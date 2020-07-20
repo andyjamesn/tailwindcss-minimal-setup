@@ -6,6 +6,7 @@
   "scripts": {
     "tailwind": "postcss tailwind.css -o dist/tailwind.css",
     "minify": "postcss dist/stylez.css -u cssnano --no-map -o dist/style.min.css",
+    "build": "npm run tailwind",
     "production": "npm run tailwind && npm run minify"
   },
   "repository": {
