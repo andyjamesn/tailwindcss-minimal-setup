@@ -4,7 +4,7 @@
   "description": "Setup Tailwind CSS in 20 seconds without node_modules",
   "main": "tailwind.config.js",
   "scripts": {
-    "start": "postcss tailwind.css -o dist/index.css -w"
+    "start": "postcss tailwind.css -o dist/style.css -w"
   },
   "repository": {
     "type": "git",
