@@ -5,8 +5,7 @@
   "main": "tailwind.config.js",
   "scripts": {
     "tailwind": "postcss tailwind.css -o dist/tailwind.css",
-    "minify": "postcss dist/stylez.css -u cssnano --no-map -o dist/style.min.css",
-    "build": "npm run tailwind",
+    "minify": "postcss dist/tailwind.css -u cssnano --no-map -o dist/style.min.css",
     "production": "npm run tailwind && npm run minify"
   },
   "repository": {
