@@ -4,9 +4,8 @@
   "description": "Setup Tailwind CSS in 20 seconds without node_modules",
   "main": "tailwind.config.js",
   "scripts": {
-    "tailwind": "postcss tailwind.css -o dist/stylez.css",
+    "tailwind": "postcss tailwind.css -o dist/tailwind.css",
     "minify": "postcss dist/stylez.css -u cssnano --no-map -o dist/style.min.css",
-    "build": "npm run tailwind",
     "production": "npm run tailwind && npm run minify"
   },
   "repository": {
