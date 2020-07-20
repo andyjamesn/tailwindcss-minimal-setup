@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Setup Tailwind CSS in 20 seconds without node_modules",
   "main": "tailwind.config.js",
-  "scripts": {
-    "start": "postcss tailwind.css -o dist/style.css -w"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tomaszbujnowicz/tailwindcss-minimal-setup.git"
@@ -24,6 +21,7 @@
   "dependencies": {
     "autoprefixer": "^9.8.5",
     "cssnano": "^4.1.10",
+    "http-server": "^0.12.3",
     "postcss": "^7.0.32",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.5.1"
