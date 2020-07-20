@@ -4,12 +4,7 @@
   "description": "Setup Tailwind CSS in 20 seconds without node_modules",
   "main": "tailwind.config.js",
   "scripts": {
-    "start": "",
-    "tailwind": "npx tailwindcss build tailwind.css -o dist/style.css",
-    "autoprefixer": "postcss dist/style.css -u autoprefixer --no-map -o dist/style.css",
-    "minify": "postcss dist/style.css -u cssnano --no-map -o dist/style.min.css",
-    "build": "npm run tailwind && npm run autoprefixer",
-    "production": "npm run tailwind && npm run autoprefixer && npm run minify"
+    "start": "postcss tailwind.css -o dist/index.css -w"
   },
   "repository": {
     "type": "git",
