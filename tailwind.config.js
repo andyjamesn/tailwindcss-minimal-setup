@@ -1,7 +1,7 @@
 module.exports = {
   purge: [],
   target: "relaxed",
-  prefix: "",
+  prefix: "t-",
   important: false,
   separator: "--",
   theme: {
