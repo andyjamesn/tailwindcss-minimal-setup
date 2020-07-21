@@ -3,8 +3,5 @@
   "clean_urls": true,
   "routes": {
     "/**": "index.html"
-  },
-  "mime_types_json": {
-    "image/svg+xml": "svg"
   }
 }
