@@ -4,6 +4,7 @@
   "description": "Setup Tailwind CSS in 20 seconds without node_modules",
   "main": "tailwind.config.js",
   "scripts": {
+    "sprites": "gulp sprites",
     "tailwind": "postcss tailwind.css -o dist/tailwind.css",
     "minify": "postcss dist/tailwind.css -u cssnano --no-map -o dist/tailwind.min.css",
     "build": "npm run tailwind",
@@ -27,8 +28,11 @@
   "dependencies": {
     "autoprefixer": "^9.8.5",
     "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-svg-sprite": "^1.5.0",
     "postcss": "^7.0.32",
     "postcss-cli": "^7.1.1",
+    "svg-sprite": "^1.5.0",
     "tailwindcss": "^1.5.1"
   }
 }
