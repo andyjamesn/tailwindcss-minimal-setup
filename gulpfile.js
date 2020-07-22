@@ -10,6 +10,12 @@ var config = {
       sprite: "sprite.svg",
       example: true,
     },
+    css: {
+      // Activate the «css» mode
+      render: {
+        css: true, // Activate CSS output (with default options)
+      },
+    },
     svg: {
       xmlDeclaration: false,
       doctypeDeclaration: false,
