@@ -8,7 +8,8 @@
     "tailwind": "postcss tailwind.css -o dist/tailwind.css",
     "minify": "postcss dist/tailwind.css -u cssnano --no-map -o dist/tailwind.min.css",
     "build": "npm run tailwind",
-    "production": "npm run tailwind && npm run minify"
+    "production": "npm run tailwind && npm run minify",
+    "deploy": "git push heroku master"
   },
   "repository": {
     "type": "git",
@@ -34,5 +35,8 @@
     "postcss-cli": "^7.1.1",
     "svg-sprite": "^1.5.0",
     "tailwindcss": "^1.5.1"
+  },
+  "devDependencies": {
+    "@ky-is/tailwindcss-plugin-width-height": "^1.0.0"
   }
 }
