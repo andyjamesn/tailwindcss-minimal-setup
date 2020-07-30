@@ -904,5 +904,6 @@ module.exports = {
         "8": "2rem",
       },
     }),
+    require("@tailwindcss/typography"),
   ],
 };
