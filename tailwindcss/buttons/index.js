@@ -8,7 +8,7 @@ module.exports = function (options) {
   addComponents([
     {
       ".btn": {
-        "@apply relative inline-block w-auto px-4 py-3 overflow-hidden text-center duration-300 ease-in-out transform bg-gray-100 border border-transparent rounded cursor-pointer leading-normal": {},
+        "@apply relative inline-block w-auto px-4 py-3 overflow-hidden text-center text-base duration-300 ease-in-out transform bg-gray-100 border border-transparent rounded cursor-pointer leading-normal": {},
         "&:focus": {
           "@apply shadow-outline outline-none": {},
         },
