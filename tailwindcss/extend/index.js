@@ -1,16 +1,21 @@
 const plugin = require("tailwindcss/plugin");
 const defaultTheme = require("tailwindcss/defaultTheme");
-const selectorParser = require("postcss-selector-parser");
 const hexRgb = require("hex-rgb");
 const colors = require("./colors");
+
+// Plugins
 const customFormsPlugin = require("@tailwindcss/custom-forms");
 const typographyPlugin = require("@tailwindcss/typography");
+const widths = require("../widths");
+const buttons = require("../buttons");
 
+// Helper Methods
 function rgba(hex, alpha) {
   const { red, green, blue } = hexRgb(hex);
   return `rgba(${red}, ${green}, ${blue}, ${alpha})`;
 }
 
+// Theme Options
 const spacing = {
   px: "1px",
   "0": "0",
@@ -377,7 +382,8 @@ module.exports = plugin.withOptions(
   function () {
     return function (options) {
       const { addUtilities, addVariant, theme, e, prefix, variants } = options;
-
+      widths(options);
+      buttons(options);
       customFormsPlugin(options);
       typographyPlugin().handler(options);
     };

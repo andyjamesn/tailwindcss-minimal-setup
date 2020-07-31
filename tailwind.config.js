@@ -138,7 +138,7 @@ module.exports = {
     widths: ["responsive"],
   },
   plugins: [
-    require("./tailwindcss/widths"),
+    // require("./tailwindcss/widths"),
     require("./tailwindcss/extend"),
     require("@ky-is/tailwindcss-plugin-width-height")({
       variants: ["responsive"],
