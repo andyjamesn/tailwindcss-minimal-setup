@@ -81,9 +81,9 @@ const spacing = {
 const boxShadow = {
   ...defaultTheme.boxShadow,
   solid: "0 0 0 2px currentColor",
-  outline: `0 0 0 3px ${rgba(colors.blue[400], 0.45)}`,
+  outline: `0 0 0 3px ${rgba(colors.primary[400], 0.45)}`,
   //   "outline-gray": `0 0 0 3px ${rgba(colors.gray[400], 0.45)}`,
-  "outline-blue": `0 0 0 3px ${rgba(colors.blue[300], 0.45)}`,
+  "outline-primary": `0 0 0 3px ${rgba(colors.primary[300], 0.45)}`,
   //   "outline-teal": `0 0 0 3px ${rgba(colors.teal[300], 0.45)}`,
   //   "outline-green": `0 0 0 3px ${rgba(colors.green[300], 0.45)}`,
   //   "outline-yellow": `0 0 0 3px ${rgba(colors.yellow[300], 0.45)}`,
@@ -158,9 +158,9 @@ const customForms = (theme) => ({
       },
       "&:focus": {
         outline: "none",
-        boxShadow: boxShadow["outline-blue"],
+        boxShadow: boxShadow["outline-primary"],
 
-        borderColor: colors.blue[300],
+        borderColor: colors.primary[300],
       },
     },
     textarea: {
@@ -181,8 +181,8 @@ const customForms = (theme) => ({
       },
       "&:focus": {
         outline: "none",
-        boxShadow: boxShadow["outline-blue"],
-        borderColor: colors.blue[300],
+        boxShadow: boxShadow["outline-primary"],
+        borderColor: colors.primary[300],
       },
     },
     multiselect: {
@@ -199,8 +199,8 @@ const customForms = (theme) => ({
       lineHeight: defaultTheme.lineHeight.normal,
       "&:focus": {
         outline: "none",
-        boxShadow: boxShadow["outline-blue"],
-        borderColor: colors.blue[300],
+        boxShadow: boxShadow["outline-primary"],
+        borderColor: colors.primary[300],
       },
     },
     select: {
@@ -230,8 +230,8 @@ const customForms = (theme) => ({
         `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none"><path d="M7 7l3-3 3 3m0 6l-3 3-3-3" stroke="${iconColor}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
       "&:focus": {
         outline: "none",
-        boxShadow: boxShadow["outline-blue"],
-        borderColor: colors.blue[300],
+        boxShadow: boxShadow["outline-primary"],
+        borderColor: colors.primary[300],
       },
     },
     checkbox: {
@@ -262,8 +262,8 @@ const customForms = (theme) => ({
         `<svg viewBox="0 0 16 16" fill="${iconColor}" xmlns="http://www.w3.org/2000/svg"><path d="M5.707 7.293a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L7 8.586 5.707 7.293z"/></svg>`,
       "&:focus": {
         outline: "none",
-        boxShadow: boxShadow["outline-blue"],
-        borderColor: colors.blue[300],
+        boxShadow: boxShadow["outline-primary"],
+        borderColor: colors.primary[300],
       },
       "&:checked": {
         borderColor: "transparent",
@@ -295,7 +295,7 @@ const customForms = (theme) => ({
       borderRadius: "100%",
       height: spacing[4],
       width: spacing[4],
-      color: colors.blue[500],
+      color: colors.primary[500],
       backgroundColor: colors.white,
       borderColor: colors.gray[300],
       borderWidth: defaultTheme.borderWidth.default,
@@ -304,8 +304,8 @@ const customForms = (theme) => ({
         `<svg viewBox="0 0 16 16" fill="${iconColor}" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="3"/></svg>`,
       "&:focus": {
         outline: "none",
-        boxShadow: boxShadow["outline-blue"],
-        borderColor: colors.blue[300],
+        boxShadow: boxShadow["outline-primary"],
+        borderColor: colors.primary[300],
       },
       "&:checked": {
         borderColor: "transparent",
