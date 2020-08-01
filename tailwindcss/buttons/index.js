@@ -17,6 +17,26 @@ module.exports = function (options) {
         },
       },
     },
+    {
+      ".btn-sm": {
+        "@apply px-3 py-2 text-sm": {},
+      },
+    },
+    {
+      ".btn-xs": {
+        "@apply px-2 py-1 text-xs": {},
+      },
+    },
+    {
+      ".btn-lg": {
+        "@apply px-5 py-4 text-lg": {},
+      },
+    },
+    {
+      ".btn-xl": {
+        "@apply px-6 py-5 text-lg": {},
+      },
+    },
     ..._.map(colors, (colorOptions, name) => {
       console.log("colorOptions.text", colorOptions[100]);
 
