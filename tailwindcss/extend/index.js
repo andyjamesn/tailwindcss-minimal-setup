@@ -8,6 +8,7 @@ const customFormsPlugin = require("@tailwindcss/custom-forms");
 const typographyPlugin = require("@tailwindcss/typography");
 const widths = require("../widths");
 const buttons = require("../buttons");
+const chWidth = require("../ch-width");
 
 // Helper Methods
 function rgba(hex, alpha) {
@@ -384,6 +385,7 @@ module.exports = plugin.withOptions(
       const { addUtilities, addVariant, theme, e, prefix, variants } = options;
       widths(options);
       buttons(options);
+      chWidth(options);
       customFormsPlugin(options);
       typographyPlugin().handler(options);
     };
