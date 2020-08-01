@@ -100,6 +100,23 @@ const boxShadow = {
   //   "outline-indigo": `0 0 0 3px ${rgba(colors.indigo[300], 0.45)}`,
 };
 
+const fontSize = {
+  "2xs": "0.625rem",
+  xs: "0.75rem",
+  sm: "0.875rem",
+  base: "1rem",
+  lg: "1.125rem",
+  xl: "1.3125rem",
+  "2xl": "1.4375rem",
+  "3xl": "1.625rem",
+  "4xl": "2.0625rem",
+  "5xl": "2.1875rem",
+  "6xl": "2.625rem",
+  "7xl": "3.125rem",
+  "8xl": "4.0625rem",
+  "9xl": "5rem",
+};
+
 const minWidth = {
   "0": "0",
   full: "100%",
@@ -403,6 +420,7 @@ module.exports = plugin.withOptions(
               },
             }
           : {}),
+        fontSize,
         colors,
         spacing,
         boxShadow,

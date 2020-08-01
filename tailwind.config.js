@@ -3,6 +3,11 @@ module.exports = {
   prefix: "",
   separator: "--",
   theme: {
+    extend: {
+      screens: {
+        xs: "480px",
+      },
+    },
     widths: (theme) => ({
       auto: "auto",
       ...theme("spacing"),
