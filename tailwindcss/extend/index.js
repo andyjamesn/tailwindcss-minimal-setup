@@ -430,6 +430,7 @@ module.exports = plugin.withOptions(
           "hover",
           "focus",
         ],
+        flex: ["responsive"],
         boxShadow: ["responsive", "group-focus", "hover", "focus"],
         textColor: [
           "responsive",
