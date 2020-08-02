@@ -8,7 +8,7 @@ module.exports = function ({ addUtilities, e, theme, variants }) {
   const utilities = _lodash.default.fromPairs(
     _lodash.default.map(theme("widths"), (value, modifier) => {
       return [
-        `.${e(`widths-${modifier}`)}`,
+        `.${e(`width-${modifier}`)}`,
         {
           width: value,
         },

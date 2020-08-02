@@ -29,6 +29,12 @@ module.exports = function (options) {
       ".max-w-ch-80": {
         "max-width": "80ch",
       },
+      ".max-w-ch-90": {
+        "max-width": "90ch",
+      },
+      ".max-w-ch-100": {
+        "max-width": "100ch",
+      },
       //   ".moo": {
       //     ...theme("spacing"),
       //   },
