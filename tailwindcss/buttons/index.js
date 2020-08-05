@@ -144,7 +144,7 @@ module.exports = function (options) {
             backgroundColor: _.get(
               colorOptions,
               "hoverBackground",
-              Color(bgColor).darken(0.1).hex().toString()
+              Color(softBgColor).darken(0.1).hex().toString()
             ),
           },
           "&:active": {
