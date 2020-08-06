@@ -52,7 +52,11 @@ module.exports = function (options) {
       },
     },
     ..._.map(colors, (colorOptions, name) => {
-      console.log("colorOptions.text", colorOptions[100]);
+      console.log("colorOptions.text", colorOptions);
+
+      if (colorOptions === "transparent") {
+        return null;
+      }
 
       let bgColor = "";
       if (_.isObject(colorOptions)) {
@@ -72,7 +76,8 @@ module.exports = function (options) {
       if (_.isObject(colorOptions)) {
         textColor = colorOptions[100];
       } else {
-        textColor = colorOptions;
+        if (colorOptions === "#ffffff") textColor = "#000000";
+        if (colorOptions === "#000000") textColor = "#ffffff";
       }
 
       return {
