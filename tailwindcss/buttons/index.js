@@ -174,7 +174,7 @@ module.exports = function (options) {
             backgroundColor: _.get(
               colorOptions,
               "hoverBackground",
-              Color(softBgColor).darken(0.1).hex().toString()
+              Color(bgColor).darken(0.1).hex().toString()
             ),
             "@apply translate-y-px": {},
           },
