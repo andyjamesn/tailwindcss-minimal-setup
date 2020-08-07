@@ -87,6 +87,8 @@ const spacing = {
 const boxShadow = {
   ...defaultTheme.boxShadow,
   solid: "0 0 0 2px currentColor",
+  "solid-lg": "0 0 0 3px currentColor",
+  "solid-xl": "0 0 0 4px currentColor",
   outline: `0 0 0 3px ${rgba(colors.primary[400], 0.45)}`,
   //   "outline-gray": `0 0 0 3px ${rgba(colors.gray[400], 0.45)}`,
   "outline-primary": `0 0 0 3px ${rgba(colors.primary[300], 0.45)}`,
