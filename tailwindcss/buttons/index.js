@@ -19,6 +19,20 @@ module.exports = function (options) {
       },
     },
     {
+      ".btn-link": {
+        "@apply bg-transparent border border-transparent": {},
+        "&:hover": {
+          "@apply underline": {},
+        },
+        "&:focus": {
+          "@apply shadow-none outline-none": {},
+        },
+        "&:active": {
+          "@apply scale-95 shadow-none outline-none": {},
+        },
+      },
+    },
+    {
       ".btn-sm": {
         "@apply px-3 py-2 text-sm": {},
       },
@@ -59,6 +73,8 @@ module.exports = function (options) {
       ".btn-animate-up": {
         "&:hover": {
           "@apply -translate-y-px": {},
+        },
+      },
     },
     ..._.map(colors, (colorOptions, name) => {
       console.log("colorOptions.text", colorOptions);
@@ -160,6 +176,7 @@ module.exports = function (options) {
               "hoverBackground",
               Color(softBgColor).darken(0.1).hex().toString()
             ),
+            "@apply translate-y-px": {},
           },
           "&:active": {
             color: textColor,
