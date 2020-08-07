@@ -50,6 +50,15 @@ module.exports = function (options) {
       ".btn-icon.btn-xl svg": {
         "@apply wh-8": {},
       },
+      // Animate buttons
+      ".btn-animate-down": {
+        "&:hover": {
+          "@apply translate-y-px": {},
+        },
+      },
+      ".btn-animate-up": {
+        "&:hover": {
+          "@apply -translate-y-px": {},
     },
     ..._.map(colors, (colorOptions, name) => {
       console.log("colorOptions.text", colorOptions);
