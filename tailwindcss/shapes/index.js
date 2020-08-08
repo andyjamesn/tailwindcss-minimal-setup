@@ -9,21 +9,21 @@ module.exports = function (options) {
   addComponents([
     {
       ".shape": {
-        "@apply relative inline-block w-auto px-4 py-3 overflow-hidden text-center text-base bg-transparent border border-transparent rounded leading-normal": {},
+        "@apply relative inline-block w-auto px-4 py-4 overflow-hidden text-center text-base bg-transparent border border-transparent rounded leading-normal": {},
       },
     },
     {
       ".shape-sm": {
-        "@apply px-3 py-2 text-sm": {},
+        "@apply px-3 py-3 text-sm": {},
       },
       ".shape-xs": {
-        "@apply px-2 py-1 text-xs": {},
+        "@apply px-2 py-2 text-xs": {},
       },
       ".shape-lg": {
-        "@apply px-5 py-4 text-lg": {},
+        "@apply px-5 py-5 text-lg": {},
       },
       ".shape-xl": {
-        "@apply px-6 py-5 text-lg": {},
+        "@apply px-6 py-6 text-lg": {},
       },
       // Icons
       ".shape-icon": {
