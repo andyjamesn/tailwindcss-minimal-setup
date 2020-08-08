@@ -21,6 +21,7 @@ module.exports = function (options) {
     {
       ".btn-link": {
         "@apply bg-transparent border border-transparent": {},
+        padding: "0!important",
         "&:hover": {
           "@apply underline": {},
         },
