@@ -51,13 +51,13 @@ module.exports = function (options) {
         "@apply inline-flex items-center": {},
       },
       ".btn-icon-xs svg": {
-        "@apply wh-3": {},
+        "@apply wh-2": {},
       },
       ".btn-icon-sm svg": {
         "@apply wh-4": {},
       },
       ".btn-icon svg": {
-        "@apply wh-5": {},
+        "@apply wh-6": {},
       },
       ".btn-icon-lg svg": {
         "@apply wh-8": {},
