@@ -60,10 +60,10 @@ module.exports = function (options) {
         "@apply wh-5": {},
       },
       ".btn-icon-lg svg": {
-        "@apply wh-6": {},
+        "@apply wh-8": {},
       },
       ".btn-icon-xl svg": {
-        "@apply wh-8": {},
+        "@apply wh-10": {},
       },
       // Animate buttons
       ".btn-animate-down": {
