@@ -47,22 +47,22 @@ module.exports = function (options) {
         "@apply px-6 py-5 text-lg": {},
       },
       // Icons
-      ".btn-icon": {
+      "[class*='btn-icon']": {
         "@apply inline-flex items-center": {},
       },
-      ".btn-icon.btn-xs svg": {
-        "@apply wh-4": {},
+      ".btn-icon-xs svg": {
+        "@apply wh-3": {},
       },
-      ".btn-icon.btn-sm svg": {
+      ".btn-icon-sm svg": {
         "@apply wh-4": {},
       },
       ".btn-icon svg": {
         "@apply wh-5": {},
       },
-      ".btn-icon.btn-lg svg": {
+      ".btn-icon-lg svg": {
         "@apply wh-6": {},
       },
-      ".btn-icon.btn-xl svg": {
+      ".btn-icon-xl svg": {
         "@apply wh-8": {},
       },
       // Animate buttons
