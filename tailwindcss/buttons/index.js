@@ -65,6 +65,9 @@ module.exports = function (options) {
       ".btn-icon-xl svg": {
         "@apply wh-10": {},
       },
+      ".btn-icon-2xl svg": {
+        "@apply wh-12": {},
+      },
       // Animate buttons
       ".btn-animate-down": {
         "&:hover": {
