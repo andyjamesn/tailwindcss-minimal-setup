@@ -16,6 +16,9 @@ module.exports = function (options) {
       ".shape-sm": {
         "@apply px-3 py-3 text-sm": {},
       },
+      ".shape-2xs": {
+        "@apply px-1 py-1 text-xs": {},
+      },
       ".shape-xs": {
         "@apply px-2 py-2 text-xs": {},
       },
