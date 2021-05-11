@@ -9,9 +9,10 @@ module.exports = function (options) {
   addComponents([
     {
       ".btn": {
-        "@apply relative inline-block w-auto px-4 py-3 overflow-hidden text-center text-base duration-300 ease-in-out transform bg-gray-100 border border-transparent rounded cursor-pointer leading-normal": {},
+        "@apply relative inline-block w-auto px-4 py-3 overflow-hidden text-center text-base duration-300 ease-in-out transform bg-gray-100 border border-transparent rounded cursor-pointer leading-normal":
+          {},
         "&:focus": {
-          "@apply shadow-outline outline-none": {},
+          "@apply ring outline-none": {},
         },
         "&:active": {
           "@apply scale-95 shadow-none outline-none": {},
@@ -51,22 +52,22 @@ module.exports = function (options) {
         "@apply inline-flex items-center": {},
       },
       ".btn-icon-xs svg": {
-        "@apply wh-2": {},
+        "@apply w-2 h-2": {},
       },
       ".btn-icon-sm svg": {
-        "@apply wh-4": {},
+        "@apply w-4 h-4": {},
       },
       ".btn-icon svg": {
-        "@apply wh-6": {},
+        "@apply w-6 h-6": {},
       },
       ".btn-icon-lg svg": {
-        "@apply wh-8": {},
+        "@apply w-8 h-8": {},
       },
       ".btn-icon-xl svg": {
-        "@apply wh-10": {},
+        "@apply w-10 h-10": {},
       },
       ".btn-icon-2xl svg": {
-        "@apply wh-12": {},
+        "@apply w-12 h-12": {},
       },
       // Animate buttons
       ".btn-animate-down": {
@@ -81,8 +82,6 @@ module.exports = function (options) {
       },
     },
     ..._.map(colors, (colorOptions, name) => {
-      console.log("colorOptions.text", colorOptions);
-
       if (colorOptions === "transparent") {
         return null;
       }

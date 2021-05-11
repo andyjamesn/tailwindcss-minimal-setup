@@ -9,7 +9,8 @@ module.exports = function (options) {
   addComponents([
     {
       ".shape": {
-        "@apply relative inline-block w-auto px-4 py-4 overflow-hidden text-center text-base bg-transparent border border-transparent rounded leading-normal": {},
+        "@apply relative inline-block w-auto px-4 py-4 overflow-hidden text-center text-base bg-transparent border border-transparent rounded leading-normal":
+          {},
       },
     },
     {
@@ -36,24 +37,22 @@ module.exports = function (options) {
         "@apply inline-flex items-center": {},
       },
       ".shape-icon.shape-xs svg": {
-        "@apply wh-4": {},
+        "@apply w-4 h-4": {},
       },
       ".shape-icon.shape-sm svg": {
-        "@apply wh-4": {},
+        "@apply w-4 h-4": {},
       },
       ".shape-icon svg": {
-        "@apply wh-5": {},
+        "@apply w-5 h-5": {},
       },
       ".shape-icon.shape-lg svg": {
-        "@apply wh-6": {},
+        "@apply w-6 h-6": {},
       },
       ".shape-icon.shape-xl svg": {
-        "@apply wh-8": {},
+        "@apply w-8 h-8": {},
       },
     },
     ..._.map(colors, (colorOptions, name) => {
-      console.log("colorOptions.text", colorOptions);
-
       if (colorOptions === "transparent") {
         return null;
       }
