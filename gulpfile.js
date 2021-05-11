@@ -1,18 +1,21 @@
 const { watch, series, src, dest } = require("gulp");
+var concat = require("gulp-concat");
 var browserSync = require("browser-sync").create();
 var postcss = require("gulp-postcss");
 
 // Task for compiling our CSS files using PostCSS
 function cssTask(cb) {
-  return src("./assets/css/*.css") // read .css files from ./src/ folder
+  return src("./src/css/tailwind-entry.css") // read .css files from ./src/ folder
     .pipe(postcss()) // compile using postcss
+    .pipe(concat("tailwind.css"))
     .pipe(dest("./dist/css")) // paste them in ./dist/css folder
+    .pipe(dest("./src/css")) // paste them in ./dist/css folder
     .pipe(browserSync.stream());
   cb();
 }
 
 function htmlTask(cb) {
-  return src("./index.html") // read .css files from ./src/ folder
+  return src("./src/index.html") // read .css files from ./src/ folder
     .pipe(dest("./dist")); // paste them in ./dist/css folder
   cb();
 }
@@ -20,7 +23,7 @@ function htmlTask(cb) {
 function browsersyncServe(cb) {
   browserSync.init({
     server: {
-      baseDir: "./",
+      baseDir: "./src",
     },
   });
   cb();
@@ -33,8 +36,8 @@ function browsersyncReload(cb) {
 
 // Watch Files & Reload browser after tasks
 function watchTask() {
-  watch("./*.html", browsersyncReload);
-  watch([".assets/*.css"], series(cssTask, browsersyncReload));
+  watch(".src/*.html", browsersyncReload);
+  watch([".src/*.css"], series(cssTask, browsersyncReload));
 }
 
 // Default Gulp Task
