@@ -1,4 +1,5 @@
 module.exports = {
+  // purge: ["./assets/**/*.css", "./**/*.html"],
   prefix: "",
   separator: "--",
   theme: {
@@ -99,10 +100,9 @@ module.exports = {
     },
   },
   plugins: [
-    // require("./tailwindcss/widths"),
-    require("./tailwindcss/extend"),
-    require("@tailwindcss/forms"),
-    require("@tailwindcss/typography"),
-    require("@tailwindcss/aspect-ratio"),
+    //   // require("./tailwindcss/extend"),
+    //   // require("@tailwindcss/forms"),
+    //   // require("@tailwindcss/typography"),
+    //   // require("@tailwindcss/aspect-ratio"),
   ],
 };

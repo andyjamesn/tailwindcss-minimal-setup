@@ -1,45 +1,33 @@
 {
-  "name": "tailwindcss-minimal-setup",
+  "name": "tailwindcss-gulp-boilerplate",
   "version": "1.0.0",
-  "description": "Setup Tailwind CSS in 20 seconds without node_modules",
+  "description": "Setup Tailwind CSS with Gulp and Browser Sync",
   "main": "tailwind.config.js",
   "scripts": {
     "dev": "tailwind-config-viewer & gulp",
-    "build": "NODE_ENV=production gulp css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tomaszbujnowicz/tailwindcss-minimal-setup.git"
+    "build": "NODE_ENV=production gulp css html",
+    "git": "git add . && git commit -m",
+    "deploy": "build & git",
+    "postgit": "git push --all"
   },
   "keywords": [],
   "author": {
-    "name": "Tomasz Bujnowicz",
-    "email": "hi@tomaszbujnowicz.com",
-    "url": "https://www.tomaszbujnowicz.com"
+    "name": "Andy Neale",
+    "email": "andy@purpledotstudio.com",
+    "url": "https://www.purpledotstudio.com"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tomaszbujnowicz/tailwindcss-minimal-setup/issues"
-  },
-  "homepage": "https://github.com/tomaszbujnowicz/tailwindcss-minimal-setup#readme",
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/forms": "^0.3.2",
     "@tailwindcss/typography": "^0.2.0"
   },
   "devDependencies": {
-    "@ky-is/tailwindcss-plugin-width-height": "^1.0.0",
     "autoprefixer": "^10.2.5",
     "browser-sync": "^2.26.14",
-    "color": "^3.1.2",
-    "cssnano": "^4.1.10",
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.0",
     "postcss": "^8.2.1",
-    "postcss-cli": "^8.3.1",
-    "svg-sprite": "^1.5.0",
     "tailwind-config-viewer": "^1.5.1",
-    "tailwindcss": "^2.0.2",
-    "tailwindcss-cli": "^0.1.2"
+    "tailwindcss": "^2.0.2"
   }
 }
