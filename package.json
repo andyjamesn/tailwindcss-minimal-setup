@@ -4,13 +4,8 @@
   "description": "Setup Tailwind CSS in 20 seconds without node_modules",
   "main": "tailwind.config.js",
   "scripts": {
-    "tailwind-config-viewer": "tailwind-config-viewer -o",
-    "sprites": "gulp sprites",
-    "tailwind": "postcss tailwind.css -o dist/tailwind.css",
-    "minify": "postcss dist/tailwind.css -u cssnano --no-map -o dist/tailwind.min.css",
-    "build": "npm run tailwind",
-    "production": "npm run tailwind && npm run minify",
-    "deploy": "git push heroku master"
+    "dev": "tailwind-config-viewer & gulp",
+    "build": "NODE_ENV=production gulp css"
   },
   "repository": {
     "type": "git",
@@ -30,20 +25,21 @@
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/forms": "^0.3.2",
-    "@tailwindcss/typography": "^0.2.0",
-    "autoprefixer": "^10.1.0",
-    "color": "^3.1.2",
-    "cssnano": "^4.1.10",
-    "gulp": "^4.0.2",
-    "gulp-svg-sprite": "^1.5.0",
-    "postcss": "^8.2.1",
-    "postcss-cli": "^8.3.1",
-    "svg-sprite": "^1.5.0",
-    "tailwindcss": "^2.0.2",
-    "tailwindcss-cli": "^0.1.2"
+    "@tailwindcss/typography": "^0.2.0"
   },
   "devDependencies": {
     "@ky-is/tailwindcss-plugin-width-height": "^1.0.0",
-    "tailwind-config-viewer": "^1.5.1"
+    "autoprefixer": "^10.2.5",
+    "browser-sync": "^2.26.14",
+    "color": "^3.1.2",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "svg-sprite": "^1.5.0",
+    "tailwind-config-viewer": "^1.5.1",
+    "tailwindcss": "^2.0.2",
+    "tailwindcss-cli": "^0.1.2"
   }
 }
