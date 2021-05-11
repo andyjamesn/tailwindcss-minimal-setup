@@ -1,22 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="dist/css/styles.css" rel="stylesheet" />
-    <title>
-      Tailwind CSS Boilerplate (PostCSS + Browsersync + Gulp 4 + Imagemin)
-    </title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./tailwind.css" />
+    <title>Tailwind CSS Minimal Setup</title>
   </head>
-  <body>
-    <div class="container py-12 mx-auto">
-      <h1 class="text-4xl font-bold text-gray-900">
-        Tailwind CSS Boilersplater (PostCSS + Browsersync + Gulp 4 + Imagemin)
-      </h1>
-      <p class="mt-4 text-lg text-red-600">
-        Tailwind CSS boilerplate fors HTML projects. Bare-bones HTML template
-        with s CSS, PostCSS, Gulp, Imagesmin &amp; Browsersync.
-      </p>
+  <body class="max-w-6xl mx-auto antialiased bg-white sm:px-6 lg:px-8">
+    <div class="py-8">
+      <div class="space-x-4">
+        <a href="" class="max-w-xl btn btn-link">Link Button</a>
+        <a href="" class="btn btn-black btn-icon-xs"
+          ><svg class="mr-2" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M.5 1a.5.5 0 000 1h1.11l.401 1.607 1.498 7.985A.5.5 0 004 12h1a2 2 0 000 4 2 2 0 100-4h7a2 2 0 000 4 2 2 0 100-4h1a.5.5 0 00.491-.408l1.5-8A.5.5 0 0014.5 3H2.89l-.405-1.621A.5.5 0 002 1H.5zM4 14a1 1 0 112 0 1 1 0 11-2 0zm7 0a1 1 0 112 0 1 1 0 11-2 0zM6.5 7a.5.5 0 000 1h4a.5.5 0 000-1h-4z"
+              fill-rule="evenodd"
+            /></svg
+          >Cart Buttonzzzzsss</a
+        >
+        <a href="" class="btn btn-white btn-icon btn-animate-slide-down"
+          ><svg class="mr-2" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M.5 1a.5.5 0 000 1h1.11l.401 1.607 1.498 7.985A.5.5 0 004 12h1a2 2 0 000 4 2 2 0 100-4h7a2 2 0 000 4 2 2 0 100-4h1a.5.5 0 00.491-.408l1.5-8A.5.5 0 0014.5 3H2.89l-.405-1.621A.5.5 0 002 1H.5zM4 14a1 1 0 112 0 1 1 0 11-2 0zm7 0a1 1 0 112 0 1 1 0 11-2 0zM6.5 7a.5.5 0 000 1h4a.5.5 0 000-1h-4z"
+              fill-rule="evenodd"
+            /></svg
+          >btn-animate-slide-up</a
+        >
+        <a href="" class="btn btn-icon btn-link"
+          >Link Button<svg viewBox="0 0 16 16" class="ml-2" fill="currentColor">
+            <g fill-rule="evenodd">
+              <path
+                d="M10.146 4.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 11-.708-.708L12.793 8l-2.647-2.646a.5.5 0 010-.708z"
+              />
+              <path d="M2 8a.5.5 0 01.5-.5H13a.5.5 0 010 1H2.5A.5.5 0 012 8z" />
+            </g></svg
+        ></a>
+        <a href="" class="btn btn-blue-soft btn-icon"
+          ><svg class="mr-2" viewBox="0 0 16 16">
+            <path
+              d="M4.5 8h7"
+              stroke-linecap="round"
+              stroke="currentColor"
+            /></svg
+          >Default Button</a
+        >
+        <a href="" class="btn btn-success-soft btn-icon"
+          ><svg class="mr-2" fill="currentColor" viewBox="0 0 16 16">
+            <path
+              d="M10.53 5.968h-.843v4.06h.843c1.117 0 1.622-.667 1.622-2.02 0-1.354-.51-2.04-1.622-2.04z"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M2 2a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V4a2 2 0 00-2-2H2zm5.396 3.001V11H6.209V8.43H3.687V11H2.5V5.001h1.187v2.44h2.522V5h1.187zM8.5 11V5.001h2.188c1.824 0 2.685 1.09 2.685 2.984C13.373 9.893 12.5 11 10.69 11H8.5z"
+            /></svg
+          >Default Button</a
+        >
+        <a href="" class="btn btn-warning-soft">Default Button</a>
+        <a href="" class="btn btn-danger-soft">Default Button</a>
+      </div>
+      <div class="grid grid-cols-10 gap-5">
+        <div class="text-sm leading-5 text-center text-gray-500">50</div>
+        <div class="text-sm leading-5 text-center text-gray-500">100</div>
+        <div class="text-sm leading-5 text-center text-gray-500">200</div>
+        <div class="text-sm leading-5 text-center text-gray-500">300</div>
+        <div class="text-sm leading-5 text-center text-gray-500">400</div>
+        <div class="text-sm leading-5 text-center text-gray-500">500</div>
+        <div class="text-sm leading-5 text-center text-gray-500">600</div>
+        <div class="text-sm leading-5 text-center text-gray-500">700</div>
+        <div class="text-sm leading-5 text-center text-gray-500">800</div>
+        <div class="text-sm leading-5 text-center text-gray-500">900</div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-gray-50"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-gray-100 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-gray-200 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-gray-300 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-gray-400 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-gray-500 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-gray-600 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-gray-700 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-gray-800 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-gray-900 shadow-inner"
+          ></div>
+        </div>
+
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-primary-50"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-primary-100"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-primary-200"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-primary-300"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-primary-400"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-primary-500"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-primary-600"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-primary-700"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-primary-800"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-primary-900"
+          ></div>
+        </div>
+
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-blue-50"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-blue-100 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-blue-200 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-blue-300 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-blue-400 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-blue-500 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-blue-600 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-blue-700 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-blue-800 shadow-inner"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full bg-blue-900 shadow-inner"
+          ></div>
+        </div>
+
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-success-50"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-success-100"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-success-200"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-success-300"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-success-400"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-success-500"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-success-600"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-success-700"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-success-800"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-success-900"
+          ></div>
+        </div>
+
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-secondary-50"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-secondary-100"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-secondary-200"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-secondary-300"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-secondary-400"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-secondary-500"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-secondary-600"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-secondary-700"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-secondary-800"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-secondary-900"
+          ></div>
+        </div>
+
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-warning-50"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-warning-100"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-warning-200"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-warning-300"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-warning-400"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-warning-500"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-warning-600"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-warning-700"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-warning-800"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-warning-900"
+          ></div>
+        </div>
+
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-danger-50"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-danger-100"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-danger-200"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-danger-300"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-danger-400"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-danger-500"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-danger-600"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-danger-700"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-danger-800"
+          ></div>
+        </div>
+        <div class="relative w-full h-full overflow-hidden rounded">
+          <div
+            class="absolute inset-0 w-full h-full shadow-inner bg-danger-900"
+          ></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

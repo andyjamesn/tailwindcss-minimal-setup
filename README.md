@@ -1,65 +1,28 @@
-# Tailwind CSS Boilerplate
+# 🚀 Setup Tailwind CSS in 20 seconds without node_modules
 
-Tailwind CSS boilerplate for HTML projects. Bare-bones HTML starter template with Tailwind CSS, PostCSS, Gulp, Browsersync &amp; Imagemin.
+### Based on my [article](https://dev.to/tomaszbujnowicz/setup-tailwind-css-in-20-seconds-without-nodemodules-1b83)
 
-The main purpose of this boilerplate is to simplify the configuration of Tailwind CSS for beginners.
+Tired of running `npm install / yarn` and seeing tons of files installed in your node_modules just to process your Tailwind CSS file? I got you, have a look at this minimal approach.
 
-## How to use this Tailwind CSS Boilerplate
+---
 
-1. Clone the repository:
+### Requirements
+Make sure all dependencies have been installed before moving on:
 
-    ```bash
-    git clone git@github.com:salttechno/tailwindcss-boilerplate.git <YOUR_PROJECT_NAME>
+* [yarn](https://yarnpkg.com/lang/en/) or [npm](https://www.npmjs.com/get-npm)
+* [Node.js](https://nodejs.org/en/download/)
 
-    cd <YOUR_PROJECT_NAME>
-    ```
+### Quick start: Installation
+Clone this repository and run
+- `npm install -g postcss-cli autoprefixer cssnano` to install dependencies globally
 
-    Or else simply download boilerplate's zip file from [this link](https://github.com/salttechno/tailwindcss-boilerplate).
+### Tasks
+| Task Name | Description
+| :------------- | :------------- |
+| `npm run tailwind` | Basic usage: process your CSS (development)
+| `npm run build` | Process your CSS + Autoprefixer (development)
+| `npm run production` | Process your CSS + Autoprefixer + Minify CSS (production)
 
-2. Install the dependencies:
+## Copyright and license
 
-    ```bash
-    # if you are using npm
-    npm install
-
-    # OR if you are using Yarn
-    yarn
-    ```
-
-3. Start the development server:
-
-    ```bash
-    # if you are using npm
-    npm run dev
-
-    # OR if you are using Yarn
-    yarn run dev
-    ```
-
-    Now you should be able to see the project running at [localhost:3000](http://localhost:3000).
-
-4. Open `./index.html` in your editor (VS Code recommended) and start editing!
-
-## Optimizing for production
-
-Tailwind CSS output needs to be optimized for the production use. The development version for the CSS file is almost 4MB which is not good for production websites. [Read this for more details](https://tailwindcss.com/docs/optimizing-for-production). This boilerplate **helps you generate the production version** of your CSS file easily & quickly.
-
-We have configured `purge` option for PostCSS & Tailwind CSS. To build optimized version of your custom CSS, simply run:
-
-```bash
-# if you are using npm
-npm run build
-
-# OR if you are using Yarn
-yarn run build
-```
-
-For optimizing your images, simply run:
-
-```bash
-# if you are using npm
-npm run build-images
-
-# OR if you are using Yarn
-yarn run build-images
-```
+Copyright 2020 Tomasz Bujnowicz under the [MIT license](http://opensource.org/licenses/MIT).
