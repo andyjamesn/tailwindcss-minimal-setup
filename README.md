@@ -7,7 +7,7 @@ Start the development server:
 npm run dev
 ```
 
-To build optimized version of your custom CSS, simply run:
+To build optimized version of custom CSS, simply run:
 
 ```bash
 # if you are using npm
