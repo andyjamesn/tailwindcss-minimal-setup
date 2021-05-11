@@ -93,6 +93,9 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+      },
       fontSize: {
         "2xs": "0.625rem",
         "3xs": "0.533rem",
@@ -100,9 +103,9 @@ module.exports = {
     },
   },
   plugins: [
-    //   // require("./tailwindcss/extend"),
-    //   // require("@tailwindcss/forms"),
-    //   // require("@tailwindcss/typography"),
-    //   // require("@tailwindcss/aspect-ratio"),
+    require("./tailwindcss/extend"),
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/aspect-ratio"),
   ],
 };
