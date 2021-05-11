@@ -13,3 +13,9 @@ To build optimized version of custom CSS, simply run:
 # if you are using npm
 npm run build
 ```
+
+To Deploy - Builds and Pushes to Git which deploys to Heroku
+
+```bash
+npm run deploy -- "COMMIT MESSAGE"
+```
