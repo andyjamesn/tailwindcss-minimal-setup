@@ -4,6 +4,7 @@ const plugin = require("tailwindcss/plugin");
 const buttons = require("../buttons");
 const shapes = require("../shapes");
 const chWidth = require("../ch-width");
+const widthAndHeight = require("../widthheight");
 
 // Used to set width-x instead of w- as webflow changes w-x to _w-
 const widths = require("../widths");
@@ -110,6 +111,7 @@ module.exports = plugin.withOptions(
       buttons(options);
       shapes(options);
       chWidth(options);
+      widthAndHeight(options);
 
       // Used to set width-x instead of w- as webflow changes w-x to _w-
       widths(options);

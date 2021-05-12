@@ -81,8 +81,9 @@ module.exports = function (options) {
         },
       },
     },
+
     ..._.map(colors, (colorOptions, name) => {
-      if (colorOptions === "transparent") {
+      if (colorOptions === "transparent" || colorOptions === "currentColor") {
         return null;
       }
 
