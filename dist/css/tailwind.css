@@ -368,7 +368,7 @@ ul {
  */
 
 html {
-  font-family: Inter, sans-serif; /* 1 */
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -12707,7 +12707,7 @@ select{
 }
 
 .font-sans{
-  font-family: Inter, sans-serif;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .font-serif{
@@ -32432,6 +32432,274 @@ select{
   --tw-backdrop-sepia: sepia(100%);
 }
 
+.width-0{
+  width: 0px;
+}
+
+.width-1{
+  width: 0.25rem;
+}
+
+.width-2{
+  width: 0.5rem;
+}
+
+.width-3{
+  width: 0.75rem;
+}
+
+.width-4{
+  width: 1rem;
+}
+
+.width-5{
+  width: 1.25rem;
+}
+
+.width-6{
+  width: 1.5rem;
+}
+
+.width-7{
+  width: 1.75rem;
+}
+
+.width-8{
+  width: 2rem;
+}
+
+.width-9{
+  width: 2.25rem;
+}
+
+.width-10{
+  width: 2.5rem;
+}
+
+.width-11{
+  width: 2.75rem;
+}
+
+.width-12{
+  width: 3rem;
+}
+
+.width-14{
+  width: 3.5rem;
+}
+
+.width-16{
+  width: 4rem;
+}
+
+.width-20{
+  width: 5rem;
+}
+
+.width-24{
+  width: 6rem;
+}
+
+.width-28{
+  width: 7rem;
+}
+
+.width-32{
+  width: 8rem;
+}
+
+.width-36{
+  width: 9rem;
+}
+
+.width-40{
+  width: 10rem;
+}
+
+.width-44{
+  width: 11rem;
+}
+
+.width-48{
+  width: 12rem;
+}
+
+.width-52{
+  width: 13rem;
+}
+
+.width-56{
+  width: 14rem;
+}
+
+.width-60{
+  width: 15rem;
+}
+
+.width-64{
+  width: 16rem;
+}
+
+.width-72{
+  width: 18rem;
+}
+
+.width-80{
+  width: 20rem;
+}
+
+.width-96{
+  width: 24rem;
+}
+
+.width-auto{
+  width: auto;
+}
+
+.width-px{
+  width: 1px;
+}
+
+.width-0\.5{
+  width: 0.125rem;
+}
+
+.width-1\.5{
+  width: 0.375rem;
+}
+
+.width-2\.5{
+  width: 0.625rem;
+}
+
+.width-3\.5{
+  width: 0.875rem;
+}
+
+.width-1-2{
+  width: 50%;
+}
+
+.width-1-3{
+  width: 33.333333%;
+}
+
+.width-2-3{
+  width: 66.666667%;
+}
+
+.width-1-4{
+  width: 25%;
+}
+
+.width-2-4{
+  width: 50%;
+}
+
+.width-3-4{
+  width: 75%;
+}
+
+.width-1-5{
+  width: 20%;
+}
+
+.width-2-5{
+  width: 40%;
+}
+
+.width-3-5{
+  width: 60%;
+}
+
+.width-4-5{
+  width: 80%;
+}
+
+.width-1-6{
+  width: 16.666667%;
+}
+
+.width-2-6{
+  width: 33.333333%;
+}
+
+.width-3-6{
+  width: 50%;
+}
+
+.width-4-6{
+  width: 66.666667%;
+}
+
+.width-5-6{
+  width: 83.333333%;
+}
+
+.width-1-12{
+  width: 8.333333%;
+}
+
+.width-2-12{
+  width: 16.666667%;
+}
+
+.width-3-12{
+  width: 25%;
+}
+
+.width-4-12{
+  width: 33.333333%;
+}
+
+.width-5-12{
+  width: 41.666667%;
+}
+
+.width-6-12{
+  width: 50%;
+}
+
+.width-7-12{
+  width: 58.333333%;
+}
+
+.width-8-12{
+  width: 66.666667%;
+}
+
+.width-9-12{
+  width: 75%;
+}
+
+.width-10-12{
+  width: 83.333333%;
+}
+
+.width-11-12{
+  width: 91.666667%;
+}
+
+.width-full{
+  width: 100%;
+}
+
+.width-screen{
+  width: 100vw;
+}
+
+.width-min{
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.width-max{
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 @media (min-width: 640px){
   .sm--container{
     width: 100%;
@@ -43500,7 +43768,7 @@ select{
   }
 
   .sm--font-sans{
-    font-family: Inter, sans-serif;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .sm--font-serif{
@@ -63053,6 +63321,274 @@ select{
   .sm--backdrop-sepia{
     --tw-backdrop-sepia: sepia(100%);
   }
+
+  .sm--width-0{
+    width: 0px;
+  }
+
+  .sm--width-1{
+    width: 0.25rem;
+  }
+
+  .sm--width-2{
+    width: 0.5rem;
+  }
+
+  .sm--width-3{
+    width: 0.75rem;
+  }
+
+  .sm--width-4{
+    width: 1rem;
+  }
+
+  .sm--width-5{
+    width: 1.25rem;
+  }
+
+  .sm--width-6{
+    width: 1.5rem;
+  }
+
+  .sm--width-7{
+    width: 1.75rem;
+  }
+
+  .sm--width-8{
+    width: 2rem;
+  }
+
+  .sm--width-9{
+    width: 2.25rem;
+  }
+
+  .sm--width-10{
+    width: 2.5rem;
+  }
+
+  .sm--width-11{
+    width: 2.75rem;
+  }
+
+  .sm--width-12{
+    width: 3rem;
+  }
+
+  .sm--width-14{
+    width: 3.5rem;
+  }
+
+  .sm--width-16{
+    width: 4rem;
+  }
+
+  .sm--width-20{
+    width: 5rem;
+  }
+
+  .sm--width-24{
+    width: 6rem;
+  }
+
+  .sm--width-28{
+    width: 7rem;
+  }
+
+  .sm--width-32{
+    width: 8rem;
+  }
+
+  .sm--width-36{
+    width: 9rem;
+  }
+
+  .sm--width-40{
+    width: 10rem;
+  }
+
+  .sm--width-44{
+    width: 11rem;
+  }
+
+  .sm--width-48{
+    width: 12rem;
+  }
+
+  .sm--width-52{
+    width: 13rem;
+  }
+
+  .sm--width-56{
+    width: 14rem;
+  }
+
+  .sm--width-60{
+    width: 15rem;
+  }
+
+  .sm--width-64{
+    width: 16rem;
+  }
+
+  .sm--width-72{
+    width: 18rem;
+  }
+
+  .sm--width-80{
+    width: 20rem;
+  }
+
+  .sm--width-96{
+    width: 24rem;
+  }
+
+  .sm--width-auto{
+    width: auto;
+  }
+
+  .sm--width-px{
+    width: 1px;
+  }
+
+  .sm--width-0\.5{
+    width: 0.125rem;
+  }
+
+  .sm--width-1\.5{
+    width: 0.375rem;
+  }
+
+  .sm--width-2\.5{
+    width: 0.625rem;
+  }
+
+  .sm--width-3\.5{
+    width: 0.875rem;
+  }
+
+  .sm--width-1-2{
+    width: 50%;
+  }
+
+  .sm--width-1-3{
+    width: 33.333333%;
+  }
+
+  .sm--width-2-3{
+    width: 66.666667%;
+  }
+
+  .sm--width-1-4{
+    width: 25%;
+  }
+
+  .sm--width-2-4{
+    width: 50%;
+  }
+
+  .sm--width-3-4{
+    width: 75%;
+  }
+
+  .sm--width-1-5{
+    width: 20%;
+  }
+
+  .sm--width-2-5{
+    width: 40%;
+  }
+
+  .sm--width-3-5{
+    width: 60%;
+  }
+
+  .sm--width-4-5{
+    width: 80%;
+  }
+
+  .sm--width-1-6{
+    width: 16.666667%;
+  }
+
+  .sm--width-2-6{
+    width: 33.333333%;
+  }
+
+  .sm--width-3-6{
+    width: 50%;
+  }
+
+  .sm--width-4-6{
+    width: 66.666667%;
+  }
+
+  .sm--width-5-6{
+    width: 83.333333%;
+  }
+
+  .sm--width-1-12{
+    width: 8.333333%;
+  }
+
+  .sm--width-2-12{
+    width: 16.666667%;
+  }
+
+  .sm--width-3-12{
+    width: 25%;
+  }
+
+  .sm--width-4-12{
+    width: 33.333333%;
+  }
+
+  .sm--width-5-12{
+    width: 41.666667%;
+  }
+
+  .sm--width-6-12{
+    width: 50%;
+  }
+
+  .sm--width-7-12{
+    width: 58.333333%;
+  }
+
+  .sm--width-8-12{
+    width: 66.666667%;
+  }
+
+  .sm--width-9-12{
+    width: 75%;
+  }
+
+  .sm--width-10-12{
+    width: 83.333333%;
+  }
+
+  .sm--width-11-12{
+    width: 91.666667%;
+  }
+
+  .sm--width-full{
+    width: 100%;
+  }
+
+  .sm--width-screen{
+    width: 100vw;
+  }
+
+  .sm--width-min{
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+
+  .sm--width-max{
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
 }
 
 @media (min-width: 768px){
@@ -74123,7 +74659,7 @@ select{
   }
 
   .md--font-sans{
-    font-family: Inter, sans-serif;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .md--font-serif{
@@ -93676,6 +94212,274 @@ select{
   .md--backdrop-sepia{
     --tw-backdrop-sepia: sepia(100%);
   }
+
+  .md--width-0{
+    width: 0px;
+  }
+
+  .md--width-1{
+    width: 0.25rem;
+  }
+
+  .md--width-2{
+    width: 0.5rem;
+  }
+
+  .md--width-3{
+    width: 0.75rem;
+  }
+
+  .md--width-4{
+    width: 1rem;
+  }
+
+  .md--width-5{
+    width: 1.25rem;
+  }
+
+  .md--width-6{
+    width: 1.5rem;
+  }
+
+  .md--width-7{
+    width: 1.75rem;
+  }
+
+  .md--width-8{
+    width: 2rem;
+  }
+
+  .md--width-9{
+    width: 2.25rem;
+  }
+
+  .md--width-10{
+    width: 2.5rem;
+  }
+
+  .md--width-11{
+    width: 2.75rem;
+  }
+
+  .md--width-12{
+    width: 3rem;
+  }
+
+  .md--width-14{
+    width: 3.5rem;
+  }
+
+  .md--width-16{
+    width: 4rem;
+  }
+
+  .md--width-20{
+    width: 5rem;
+  }
+
+  .md--width-24{
+    width: 6rem;
+  }
+
+  .md--width-28{
+    width: 7rem;
+  }
+
+  .md--width-32{
+    width: 8rem;
+  }
+
+  .md--width-36{
+    width: 9rem;
+  }
+
+  .md--width-40{
+    width: 10rem;
+  }
+
+  .md--width-44{
+    width: 11rem;
+  }
+
+  .md--width-48{
+    width: 12rem;
+  }
+
+  .md--width-52{
+    width: 13rem;
+  }
+
+  .md--width-56{
+    width: 14rem;
+  }
+
+  .md--width-60{
+    width: 15rem;
+  }
+
+  .md--width-64{
+    width: 16rem;
+  }
+
+  .md--width-72{
+    width: 18rem;
+  }
+
+  .md--width-80{
+    width: 20rem;
+  }
+
+  .md--width-96{
+    width: 24rem;
+  }
+
+  .md--width-auto{
+    width: auto;
+  }
+
+  .md--width-px{
+    width: 1px;
+  }
+
+  .md--width-0\.5{
+    width: 0.125rem;
+  }
+
+  .md--width-1\.5{
+    width: 0.375rem;
+  }
+
+  .md--width-2\.5{
+    width: 0.625rem;
+  }
+
+  .md--width-3\.5{
+    width: 0.875rem;
+  }
+
+  .md--width-1-2{
+    width: 50%;
+  }
+
+  .md--width-1-3{
+    width: 33.333333%;
+  }
+
+  .md--width-2-3{
+    width: 66.666667%;
+  }
+
+  .md--width-1-4{
+    width: 25%;
+  }
+
+  .md--width-2-4{
+    width: 50%;
+  }
+
+  .md--width-3-4{
+    width: 75%;
+  }
+
+  .md--width-1-5{
+    width: 20%;
+  }
+
+  .md--width-2-5{
+    width: 40%;
+  }
+
+  .md--width-3-5{
+    width: 60%;
+  }
+
+  .md--width-4-5{
+    width: 80%;
+  }
+
+  .md--width-1-6{
+    width: 16.666667%;
+  }
+
+  .md--width-2-6{
+    width: 33.333333%;
+  }
+
+  .md--width-3-6{
+    width: 50%;
+  }
+
+  .md--width-4-6{
+    width: 66.666667%;
+  }
+
+  .md--width-5-6{
+    width: 83.333333%;
+  }
+
+  .md--width-1-12{
+    width: 8.333333%;
+  }
+
+  .md--width-2-12{
+    width: 16.666667%;
+  }
+
+  .md--width-3-12{
+    width: 25%;
+  }
+
+  .md--width-4-12{
+    width: 33.333333%;
+  }
+
+  .md--width-5-12{
+    width: 41.666667%;
+  }
+
+  .md--width-6-12{
+    width: 50%;
+  }
+
+  .md--width-7-12{
+    width: 58.333333%;
+  }
+
+  .md--width-8-12{
+    width: 66.666667%;
+  }
+
+  .md--width-9-12{
+    width: 75%;
+  }
+
+  .md--width-10-12{
+    width: 83.333333%;
+  }
+
+  .md--width-11-12{
+    width: 91.666667%;
+  }
+
+  .md--width-full{
+    width: 100%;
+  }
+
+  .md--width-screen{
+    width: 100vw;
+  }
+
+  .md--width-min{
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+
+  .md--width-max{
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
 }
 
 @media (min-width: 1024px){
@@ -104746,7 +105550,7 @@ select{
   }
 
   .lg--font-sans{
-    font-family: Inter, sans-serif;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .lg--font-serif{
@@ -124299,6 +125103,274 @@ select{
   .lg--backdrop-sepia{
     --tw-backdrop-sepia: sepia(100%);
   }
+
+  .lg--width-0{
+    width: 0px;
+  }
+
+  .lg--width-1{
+    width: 0.25rem;
+  }
+
+  .lg--width-2{
+    width: 0.5rem;
+  }
+
+  .lg--width-3{
+    width: 0.75rem;
+  }
+
+  .lg--width-4{
+    width: 1rem;
+  }
+
+  .lg--width-5{
+    width: 1.25rem;
+  }
+
+  .lg--width-6{
+    width: 1.5rem;
+  }
+
+  .lg--width-7{
+    width: 1.75rem;
+  }
+
+  .lg--width-8{
+    width: 2rem;
+  }
+
+  .lg--width-9{
+    width: 2.25rem;
+  }
+
+  .lg--width-10{
+    width: 2.5rem;
+  }
+
+  .lg--width-11{
+    width: 2.75rem;
+  }
+
+  .lg--width-12{
+    width: 3rem;
+  }
+
+  .lg--width-14{
+    width: 3.5rem;
+  }
+
+  .lg--width-16{
+    width: 4rem;
+  }
+
+  .lg--width-20{
+    width: 5rem;
+  }
+
+  .lg--width-24{
+    width: 6rem;
+  }
+
+  .lg--width-28{
+    width: 7rem;
+  }
+
+  .lg--width-32{
+    width: 8rem;
+  }
+
+  .lg--width-36{
+    width: 9rem;
+  }
+
+  .lg--width-40{
+    width: 10rem;
+  }
+
+  .lg--width-44{
+    width: 11rem;
+  }
+
+  .lg--width-48{
+    width: 12rem;
+  }
+
+  .lg--width-52{
+    width: 13rem;
+  }
+
+  .lg--width-56{
+    width: 14rem;
+  }
+
+  .lg--width-60{
+    width: 15rem;
+  }
+
+  .lg--width-64{
+    width: 16rem;
+  }
+
+  .lg--width-72{
+    width: 18rem;
+  }
+
+  .lg--width-80{
+    width: 20rem;
+  }
+
+  .lg--width-96{
+    width: 24rem;
+  }
+
+  .lg--width-auto{
+    width: auto;
+  }
+
+  .lg--width-px{
+    width: 1px;
+  }
+
+  .lg--width-0\.5{
+    width: 0.125rem;
+  }
+
+  .lg--width-1\.5{
+    width: 0.375rem;
+  }
+
+  .lg--width-2\.5{
+    width: 0.625rem;
+  }
+
+  .lg--width-3\.5{
+    width: 0.875rem;
+  }
+
+  .lg--width-1-2{
+    width: 50%;
+  }
+
+  .lg--width-1-3{
+    width: 33.333333%;
+  }
+
+  .lg--width-2-3{
+    width: 66.666667%;
+  }
+
+  .lg--width-1-4{
+    width: 25%;
+  }
+
+  .lg--width-2-4{
+    width: 50%;
+  }
+
+  .lg--width-3-4{
+    width: 75%;
+  }
+
+  .lg--width-1-5{
+    width: 20%;
+  }
+
+  .lg--width-2-5{
+    width: 40%;
+  }
+
+  .lg--width-3-5{
+    width: 60%;
+  }
+
+  .lg--width-4-5{
+    width: 80%;
+  }
+
+  .lg--width-1-6{
+    width: 16.666667%;
+  }
+
+  .lg--width-2-6{
+    width: 33.333333%;
+  }
+
+  .lg--width-3-6{
+    width: 50%;
+  }
+
+  .lg--width-4-6{
+    width: 66.666667%;
+  }
+
+  .lg--width-5-6{
+    width: 83.333333%;
+  }
+
+  .lg--width-1-12{
+    width: 8.333333%;
+  }
+
+  .lg--width-2-12{
+    width: 16.666667%;
+  }
+
+  .lg--width-3-12{
+    width: 25%;
+  }
+
+  .lg--width-4-12{
+    width: 33.333333%;
+  }
+
+  .lg--width-5-12{
+    width: 41.666667%;
+  }
+
+  .lg--width-6-12{
+    width: 50%;
+  }
+
+  .lg--width-7-12{
+    width: 58.333333%;
+  }
+
+  .lg--width-8-12{
+    width: 66.666667%;
+  }
+
+  .lg--width-9-12{
+    width: 75%;
+  }
+
+  .lg--width-10-12{
+    width: 83.333333%;
+  }
+
+  .lg--width-11-12{
+    width: 91.666667%;
+  }
+
+  .lg--width-full{
+    width: 100%;
+  }
+
+  .lg--width-screen{
+    width: 100vw;
+  }
+
+  .lg--width-min{
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+
+  .lg--width-max{
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
 }
 
 @media (min-width: 1280px){
@@ -135369,7 +136441,7 @@ select{
   }
 
   .xl--font-sans{
-    font-family: Inter, sans-serif;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .xl--font-serif{
@@ -154922,6 +155994,274 @@ select{
   .xl--backdrop-sepia{
     --tw-backdrop-sepia: sepia(100%);
   }
+
+  .xl--width-0{
+    width: 0px;
+  }
+
+  .xl--width-1{
+    width: 0.25rem;
+  }
+
+  .xl--width-2{
+    width: 0.5rem;
+  }
+
+  .xl--width-3{
+    width: 0.75rem;
+  }
+
+  .xl--width-4{
+    width: 1rem;
+  }
+
+  .xl--width-5{
+    width: 1.25rem;
+  }
+
+  .xl--width-6{
+    width: 1.5rem;
+  }
+
+  .xl--width-7{
+    width: 1.75rem;
+  }
+
+  .xl--width-8{
+    width: 2rem;
+  }
+
+  .xl--width-9{
+    width: 2.25rem;
+  }
+
+  .xl--width-10{
+    width: 2.5rem;
+  }
+
+  .xl--width-11{
+    width: 2.75rem;
+  }
+
+  .xl--width-12{
+    width: 3rem;
+  }
+
+  .xl--width-14{
+    width: 3.5rem;
+  }
+
+  .xl--width-16{
+    width: 4rem;
+  }
+
+  .xl--width-20{
+    width: 5rem;
+  }
+
+  .xl--width-24{
+    width: 6rem;
+  }
+
+  .xl--width-28{
+    width: 7rem;
+  }
+
+  .xl--width-32{
+    width: 8rem;
+  }
+
+  .xl--width-36{
+    width: 9rem;
+  }
+
+  .xl--width-40{
+    width: 10rem;
+  }
+
+  .xl--width-44{
+    width: 11rem;
+  }
+
+  .xl--width-48{
+    width: 12rem;
+  }
+
+  .xl--width-52{
+    width: 13rem;
+  }
+
+  .xl--width-56{
+    width: 14rem;
+  }
+
+  .xl--width-60{
+    width: 15rem;
+  }
+
+  .xl--width-64{
+    width: 16rem;
+  }
+
+  .xl--width-72{
+    width: 18rem;
+  }
+
+  .xl--width-80{
+    width: 20rem;
+  }
+
+  .xl--width-96{
+    width: 24rem;
+  }
+
+  .xl--width-auto{
+    width: auto;
+  }
+
+  .xl--width-px{
+    width: 1px;
+  }
+
+  .xl--width-0\.5{
+    width: 0.125rem;
+  }
+
+  .xl--width-1\.5{
+    width: 0.375rem;
+  }
+
+  .xl--width-2\.5{
+    width: 0.625rem;
+  }
+
+  .xl--width-3\.5{
+    width: 0.875rem;
+  }
+
+  .xl--width-1-2{
+    width: 50%;
+  }
+
+  .xl--width-1-3{
+    width: 33.333333%;
+  }
+
+  .xl--width-2-3{
+    width: 66.666667%;
+  }
+
+  .xl--width-1-4{
+    width: 25%;
+  }
+
+  .xl--width-2-4{
+    width: 50%;
+  }
+
+  .xl--width-3-4{
+    width: 75%;
+  }
+
+  .xl--width-1-5{
+    width: 20%;
+  }
+
+  .xl--width-2-5{
+    width: 40%;
+  }
+
+  .xl--width-3-5{
+    width: 60%;
+  }
+
+  .xl--width-4-5{
+    width: 80%;
+  }
+
+  .xl--width-1-6{
+    width: 16.666667%;
+  }
+
+  .xl--width-2-6{
+    width: 33.333333%;
+  }
+
+  .xl--width-3-6{
+    width: 50%;
+  }
+
+  .xl--width-4-6{
+    width: 66.666667%;
+  }
+
+  .xl--width-5-6{
+    width: 83.333333%;
+  }
+
+  .xl--width-1-12{
+    width: 8.333333%;
+  }
+
+  .xl--width-2-12{
+    width: 16.666667%;
+  }
+
+  .xl--width-3-12{
+    width: 25%;
+  }
+
+  .xl--width-4-12{
+    width: 33.333333%;
+  }
+
+  .xl--width-5-12{
+    width: 41.666667%;
+  }
+
+  .xl--width-6-12{
+    width: 50%;
+  }
+
+  .xl--width-7-12{
+    width: 58.333333%;
+  }
+
+  .xl--width-8-12{
+    width: 66.666667%;
+  }
+
+  .xl--width-9-12{
+    width: 75%;
+  }
+
+  .xl--width-10-12{
+    width: 83.333333%;
+  }
+
+  .xl--width-11-12{
+    width: 91.666667%;
+  }
+
+  .xl--width-full{
+    width: 100%;
+  }
+
+  .xl--width-screen{
+    width: 100vw;
+  }
+
+  .xl--width-min{
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+
+  .xl--width-max{
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
 }
 
 @media (min-width: 1536px){
@@ -165992,7 +167332,7 @@ select{
   }
 
   .\32xl--font-sans{
-    font-family: Inter, sans-serif;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .\32xl--font-serif{
@@ -185544,5 +186884,273 @@ select{
 
   .\32xl--backdrop-sepia{
     --tw-backdrop-sepia: sepia(100%);
+  }
+
+  .\32xl--width-0{
+    width: 0px;
+  }
+
+  .\32xl--width-1{
+    width: 0.25rem;
+  }
+
+  .\32xl--width-2{
+    width: 0.5rem;
+  }
+
+  .\32xl--width-3{
+    width: 0.75rem;
+  }
+
+  .\32xl--width-4{
+    width: 1rem;
+  }
+
+  .\32xl--width-5{
+    width: 1.25rem;
+  }
+
+  .\32xl--width-6{
+    width: 1.5rem;
+  }
+
+  .\32xl--width-7{
+    width: 1.75rem;
+  }
+
+  .\32xl--width-8{
+    width: 2rem;
+  }
+
+  .\32xl--width-9{
+    width: 2.25rem;
+  }
+
+  .\32xl--width-10{
+    width: 2.5rem;
+  }
+
+  .\32xl--width-11{
+    width: 2.75rem;
+  }
+
+  .\32xl--width-12{
+    width: 3rem;
+  }
+
+  .\32xl--width-14{
+    width: 3.5rem;
+  }
+
+  .\32xl--width-16{
+    width: 4rem;
+  }
+
+  .\32xl--width-20{
+    width: 5rem;
+  }
+
+  .\32xl--width-24{
+    width: 6rem;
+  }
+
+  .\32xl--width-28{
+    width: 7rem;
+  }
+
+  .\32xl--width-32{
+    width: 8rem;
+  }
+
+  .\32xl--width-36{
+    width: 9rem;
+  }
+
+  .\32xl--width-40{
+    width: 10rem;
+  }
+
+  .\32xl--width-44{
+    width: 11rem;
+  }
+
+  .\32xl--width-48{
+    width: 12rem;
+  }
+
+  .\32xl--width-52{
+    width: 13rem;
+  }
+
+  .\32xl--width-56{
+    width: 14rem;
+  }
+
+  .\32xl--width-60{
+    width: 15rem;
+  }
+
+  .\32xl--width-64{
+    width: 16rem;
+  }
+
+  .\32xl--width-72{
+    width: 18rem;
+  }
+
+  .\32xl--width-80{
+    width: 20rem;
+  }
+
+  .\32xl--width-96{
+    width: 24rem;
+  }
+
+  .\32xl--width-auto{
+    width: auto;
+  }
+
+  .\32xl--width-px{
+    width: 1px;
+  }
+
+  .\32xl--width-0\.5{
+    width: 0.125rem;
+  }
+
+  .\32xl--width-1\.5{
+    width: 0.375rem;
+  }
+
+  .\32xl--width-2\.5{
+    width: 0.625rem;
+  }
+
+  .\32xl--width-3\.5{
+    width: 0.875rem;
+  }
+
+  .\32xl--width-1-2{
+    width: 50%;
+  }
+
+  .\32xl--width-1-3{
+    width: 33.333333%;
+  }
+
+  .\32xl--width-2-3{
+    width: 66.666667%;
+  }
+
+  .\32xl--width-1-4{
+    width: 25%;
+  }
+
+  .\32xl--width-2-4{
+    width: 50%;
+  }
+
+  .\32xl--width-3-4{
+    width: 75%;
+  }
+
+  .\32xl--width-1-5{
+    width: 20%;
+  }
+
+  .\32xl--width-2-5{
+    width: 40%;
+  }
+
+  .\32xl--width-3-5{
+    width: 60%;
+  }
+
+  .\32xl--width-4-5{
+    width: 80%;
+  }
+
+  .\32xl--width-1-6{
+    width: 16.666667%;
+  }
+
+  .\32xl--width-2-6{
+    width: 33.333333%;
+  }
+
+  .\32xl--width-3-6{
+    width: 50%;
+  }
+
+  .\32xl--width-4-6{
+    width: 66.666667%;
+  }
+
+  .\32xl--width-5-6{
+    width: 83.333333%;
+  }
+
+  .\32xl--width-1-12{
+    width: 8.333333%;
+  }
+
+  .\32xl--width-2-12{
+    width: 16.666667%;
+  }
+
+  .\32xl--width-3-12{
+    width: 25%;
+  }
+
+  .\32xl--width-4-12{
+    width: 33.333333%;
+  }
+
+  .\32xl--width-5-12{
+    width: 41.666667%;
+  }
+
+  .\32xl--width-6-12{
+    width: 50%;
+  }
+
+  .\32xl--width-7-12{
+    width: 58.333333%;
+  }
+
+  .\32xl--width-8-12{
+    width: 66.666667%;
+  }
+
+  .\32xl--width-9-12{
+    width: 75%;
+  }
+
+  .\32xl--width-10-12{
+    width: 83.333333%;
+  }
+
+  .\32xl--width-11-12{
+    width: 91.666667%;
+  }
+
+  .\32xl--width-full{
+    width: 100%;
+  }
+
+  .\32xl--width-screen{
+    width: 100vw;
+  }
+
+  .\32xl--width-min{
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+  }
+
+  .\32xl--width-max{
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
 }

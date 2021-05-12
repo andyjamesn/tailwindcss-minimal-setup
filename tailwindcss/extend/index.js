@@ -5,6 +5,9 @@ const buttons = require("../buttons");
 const shapes = require("../shapes");
 const chWidth = require("../ch-width");
 
+// Used to set width-x instead of w- as webflow changes w-x to _w-
+const widths = require("../widths");
+
 const width = (theme) => ({
   auto: "auto",
   ...theme("spacing"),
@@ -107,6 +110,9 @@ module.exports = plugin.withOptions(
       buttons(options);
       shapes(options);
       chWidth(options);
+
+      // Used to set width-x instead of w- as webflow changes w-x to _w-
+      widths(options);
     };
   },
 
