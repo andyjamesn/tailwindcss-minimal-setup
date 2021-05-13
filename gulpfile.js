@@ -17,7 +17,7 @@ function cssTask(cb) {
 }
 
 function svgTask(cb) {
-  return src("./src/assets/svg/*.svg")
+  return src("./src/assets/svg/**/*.svg")
     .pipe(svgmin())
     .pipe(
       svgcss({
