@@ -16,13 +16,28 @@ function cssTask(cb) {
   cb();
 }
 
-function svgTask(cb) {
-  return src("./src/assets/svg/**/*.svg")
+function svgZWTask(cb) {
+  return src("./src/assets/svg/zwicons/**/*.svg")
     .pipe(svgmin())
     .pipe(
       svgcss({
-        fileName: "icons",
-        cssPrefix: "icon-",
+        fileName: "zw-icons",
+        cssPrefix: "zwicon-",
+        addSize: false,
+      })
+    )
+    .pipe(dest("./src/css"))
+    .pipe(dest("dist/css"));
+  cb();
+}
+
+function svgCIBTask(cb) {
+  return src("./src/assets/svg/core-ui-brand/*.svg")
+    .pipe(svgmin())
+    .pipe(
+      svgcss({
+        fileName: "cib-icons",
+        cssPrefix: "cib-",
         addSize: false,
       })
     )
@@ -61,4 +76,5 @@ function watchTask() {
 exports.default = series(cssTask, htmlTask, browsersyncServe, watchTask);
 exports.css = cssTask;
 exports.html = htmlTask;
-exports.svg = svgTask;
+exports.svgZw = svgZWTask;
+exports.svgCib = svgCIBTask;

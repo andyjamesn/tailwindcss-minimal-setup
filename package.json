@@ -5,7 +5,7 @@
   "main": "tailwind.config.js",
   "scripts": {
     "dev": "tailwind-config-viewer & gulp",
-    "build": "NODE_ENV=production gulp svg css html",
+    "build": "NODE_ENV=production gulp svgZw svgCib css html",
     "git": "git add . && git commit -m",
     "deploy": "npm run build && npm run git",
     "postgit": "git push --all",
