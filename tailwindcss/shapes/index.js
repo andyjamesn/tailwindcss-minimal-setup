@@ -1,6 +1,4 @@
 const _ = require("lodash");
-const Color = require("color");
-const { transparent } = require("../extend/colors");
 
 module.exports = function (options) {
   const { addComponents, theme, e } = options;

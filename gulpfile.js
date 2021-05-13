@@ -2,6 +2,8 @@ const { watch, series, src, dest } = require("gulp");
 var concat = require("gulp-concat");
 var browserSync = require("browser-sync").create();
 var postcss = require("gulp-postcss");
+var svgcss = require("gulp-svg-css");
+var svgmin = require("gulp-svgmin");
 
 // Task for compiling our CSS files using PostCSS
 function cssTask(cb) {
@@ -11,6 +13,21 @@ function cssTask(cb) {
     .pipe(dest("./dist/css")) // paste them in ./dist/css folder
     .pipe(dest("./src/css")) // paste them in ./dist/css folder
     .pipe(browserSync.stream());
+  cb();
+}
+
+function svgTask(cb) {
+  return src("./src/assets/svg/*.svg")
+    .pipe(svgmin())
+    .pipe(
+      svgcss({
+        fileName: "icons",
+        cssPrefix: "icon-",
+        addSize: false,
+      })
+    )
+    .pipe(dest("./src/css"))
+    .pipe(dest("dist/css"));
   cb();
 }
 
@@ -44,3 +61,4 @@ function watchTask() {
 exports.default = series(cssTask, htmlTask, browsersyncServe, watchTask);
 exports.css = cssTask;
 exports.html = htmlTask;
+exports.svg = svgTask;
