@@ -144,7 +144,21 @@ module.exports = {
     wordBreak: false,
     zIndex: false,
   },
+
   theme: {
+    screens: {
+      'sm': '478px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '767px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '991px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+    },
     extend: {
       colors: {
         transparent: "transparent",
