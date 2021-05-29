@@ -5,11 +5,11 @@
   "main": "tailwind.config.js",
   "scripts": {
     "dev": "tailwind-config-viewer & gulp",
-    "build": "NODE_ENV=production gulp svgZw svgCib css html",
+    "build": "NODE_ENV=production gulp css htmlTask",
     "git": "git add . && git commit -m",
     "deploy": "npm run build && npm run git",
     "postgit": "git push --all",
-    "svgs": "gulp svg"
+    "icons": "gulp svgUnicons"
   },
   "keywords": [],
   "author": {
