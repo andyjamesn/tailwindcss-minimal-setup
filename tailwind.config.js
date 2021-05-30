@@ -2,6 +2,12 @@ module.exports = {
   // purge: ["./assets/**/*.css", "./**/*.html"],
   prefix: "",
   separator: "--",
+  variants: {
+    extend: {
+      margin: [],
+      padding: [],
+    }
+  },
   corePlugins: {
     accessibility: false,
     alignContent: false,
