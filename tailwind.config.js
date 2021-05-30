@@ -3,10 +3,8 @@ module.exports = {
   prefix: "",
   separator: "--",
   variants: {
-    extend: {
-      margin: [],
-      padding: [],
-    }
+    margin: [],
+    padding: [],
   },
   corePlugins: {
     accessibility: false,
