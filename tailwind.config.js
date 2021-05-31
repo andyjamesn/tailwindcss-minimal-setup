@@ -5,6 +5,7 @@ module.exports = {
   variants: {
     margin: [],
     padding: [],
+    inset: [],
   },
   corePlugins: {
     accessibility: false,
@@ -83,7 +84,7 @@ module.exports = {
     gridTemplateRows: false,
     height: false,
     hueRotate: false,
-    inset: false,
+    inset: true,
     invert: false,
     isolation: false,
     justifyContent: false,
