@@ -1,0 +1,8 @@
+.demo-grid {display:grid;grid-gap: 10px;}
+.demo-grid.cols2 {grid-template-columns: repeat(2, 1fr)}
+.demo-grid.cols3 {grid-template-columns: repeat(3, 1fr)}
+.demo-grid.cols4 {grid-template-columns: repeat(4, 1fr)}
+.demo-bg.spacing-inner {background: pink;text-align: center}
+.demo-section {border-bottom: 1px solid #aaa;margin-bottom: 5rem;padding: 5rem 0;background: #eee;}
+.demo-bg.wrap {border: 1px solid #ddd;padding: 10px; background: #f6f6f6;}
+.demo-bg.spacing-outer {background: #ddd;margin-bottom: 10px}
