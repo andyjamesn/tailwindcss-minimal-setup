@@ -160,7 +160,7 @@ module.exports = {
       'lg': '991px',
       // => @media (min-width: 1024px) { ... }
 
-      'xl': { 'min': '1279px' },
+      'xl': { 'min': '1278px' },
       // => @media (min-width: 1280px) { ... }
     },
     spacing: {
