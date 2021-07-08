@@ -10914,7 +10914,7 @@ html { font-size: 16px;
   }
 }
 
-@media (min-width: 1280px){
+@media (min-width: 1279px){
   .xl--space-y-0 > :not([hidden]) ~ :not([hidden]){
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
