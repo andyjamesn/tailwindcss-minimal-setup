@@ -124,7 +124,7 @@ module.exports = {
     scale: false,
     sepia: false,
     skew: false,
-    space: false,
+    space: true,
     stroke: false,
     strokeWidth: false,
     tableLayout: false,
