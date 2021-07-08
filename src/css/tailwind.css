@@ -5593,6 +5593,46 @@ html { font-size: 16px;
   left: -100%;
 }
 
+.text-left{
+  text-align: left;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.not-italic{
+  font-style: normal;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.lowercase{
+  text-transform: lowercase;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+
+.normal-case{
+  text-transform: none;
+}
+
 .backdrop-opacity-0{
   --tw-backdrop-opacity: opacity(0);
 }
@@ -6626,6 +6666,46 @@ html { font-size: 16px;
   .sm--text-3xs{
     font-size: 0.533rem;
   }
+
+  .sm--text-left{
+    text-align: left;
+  }
+
+  .sm--text-center{
+    text-align: center;
+  }
+
+  .sm--text-right{
+    text-align: right;
+  }
+
+  .sm--text-justify{
+    text-align: justify;
+  }
+
+  .sm--italic{
+    font-style: italic;
+  }
+
+  .sm--not-italic{
+    font-style: normal;
+  }
+
+  .sm--uppercase{
+    text-transform: uppercase;
+  }
+
+  .sm--lowercase{
+    text-transform: lowercase;
+  }
+
+  .sm--capitalize{
+    text-transform: capitalize;
+  }
+
+  .sm--normal-case{
+    text-transform: none;
+  }
 }
 
 @media (min-width: 767px){
@@ -7600,6 +7680,46 @@ html { font-size: 16px;
 
   .md--text-3xs{
     font-size: 0.533rem;
+  }
+
+  .md--text-left{
+    text-align: left;
+  }
+
+  .md--text-center{
+    text-align: center;
+  }
+
+  .md--text-right{
+    text-align: right;
+  }
+
+  .md--text-justify{
+    text-align: justify;
+  }
+
+  .md--italic{
+    font-style: italic;
+  }
+
+  .md--not-italic{
+    font-style: normal;
+  }
+
+  .md--uppercase{
+    text-transform: uppercase;
+  }
+
+  .md--lowercase{
+    text-transform: lowercase;
+  }
+
+  .md--capitalize{
+    text-transform: capitalize;
+  }
+
+  .md--normal-case{
+    text-transform: none;
   }
 }
 
@@ -8576,6 +8696,46 @@ html { font-size: 16px;
   .lg--text-3xs{
     font-size: 0.533rem;
   }
+
+  .lg--text-left{
+    text-align: left;
+  }
+
+  .lg--text-center{
+    text-align: center;
+  }
+
+  .lg--text-right{
+    text-align: right;
+  }
+
+  .lg--text-justify{
+    text-align: justify;
+  }
+
+  .lg--italic{
+    font-style: italic;
+  }
+
+  .lg--not-italic{
+    font-style: normal;
+  }
+
+  .lg--uppercase{
+    text-transform: uppercase;
+  }
+
+  .lg--lowercase{
+    text-transform: lowercase;
+  }
+
+  .lg--capitalize{
+    text-transform: capitalize;
+  }
+
+  .lg--normal-case{
+    text-transform: none;
+  }
 }
 
 @media (min-width: 1280px){
@@ -9550,5 +9710,45 @@ html { font-size: 16px;
 
   .xl--text-3xs{
     font-size: 0.533rem;
+  }
+
+  .xl--text-left{
+    text-align: left;
+  }
+
+  .xl--text-center{
+    text-align: center;
+  }
+
+  .xl--text-right{
+    text-align: right;
+  }
+
+  .xl--text-justify{
+    text-align: justify;
+  }
+
+  .xl--italic{
+    font-style: italic;
+  }
+
+  .xl--not-italic{
+    font-style: normal;
+  }
+
+  .xl--uppercase{
+    text-transform: uppercase;
+  }
+
+  .xl--lowercase{
+    text-transform: lowercase;
+  }
+
+  .xl--capitalize{
+    text-transform: capitalize;
+  }
+
+  .xl--normal-case{
+    text-transform: none;
   }
 }
