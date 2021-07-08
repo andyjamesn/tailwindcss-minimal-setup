@@ -122,8 +122,8 @@ module.exports = plugin.withOptions(
   function () {
     return {
       theme: {
-        // width,
-        // height,
+        width,
+        height,
         // inset,
         // translate,
       },
