@@ -48,7 +48,7 @@ module.exports = {
     container: false,
     contrast: false,
     cursor: false,
-    display: false,
+    display: true,
     divideColor: false,
     divideOpacity: false,
     divideStyle: false,
