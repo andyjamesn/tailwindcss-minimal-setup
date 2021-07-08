@@ -108,10 +108,10 @@ const translate = (theme, { negative }) => ({
 module.exports = plugin.withOptions(
   function () {
     return function (options) {
-      buttons(options);
-      shapes(options);
-      chWidth(options);
-      widthAndHeight(options);
+      // buttons(options);
+      // shapes(options);
+      // chWidth(options);
+      // widthAndHeight(options);
 
       // Used to set width-x instead of w- as webflow changes w-x to _w-
       widths(options);
@@ -122,10 +122,10 @@ module.exports = plugin.withOptions(
   function () {
     return {
       theme: {
-        width,
-        height,
-        inset,
-        translate,
+        // width,
+        // height,
+        // inset,
+        // translate,
       },
     };
   }

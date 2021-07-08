@@ -112,7 +112,7 @@ module.exports = {
     placeholderColor: false,
     placeholderOpacity: false,
     pointerEvents: false,
-    position: false,
+    position: true,
     resize: false,
     ringColor: false,
     ringOffsetColor: false,
@@ -296,7 +296,7 @@ module.exports = {
   },
 
   plugins: [
-    // require("./tailwindcss/extend"),
+    require("./tailwindcss/extend"),
     // require("@tailwindcss/forms"),
     // require("@tailwindcss/typography"),
     // require("@tailwindcss/aspect-ratio"),
