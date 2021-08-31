@@ -5,11 +5,11 @@
 html { font-size: 16px; }
 
 /* As per Webflows Break points here are the font sizes per screen */
-@media (max-width: 991px) { html { font-size: 15px; } }
+@media (max-width: 991px) { html { font-size: 16px; } }
 
-@media (max-width: 767px) { html { font-size: 14px; } }
+@media (max-width: 767px) { html { font-size: 16px; } }
 
-@media (max-width: 478px) { html { font-size: 13px; } }
+@media (max-width: 478px) { html { font-size: 16px; } }
 
 /* Custom Webflow Breakpoints */
 @media (min-width: 1279px) { html { font-size: 17px; } }
